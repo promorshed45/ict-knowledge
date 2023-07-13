@@ -1,0 +1,209 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'lato', Open Sans, sans-serif;
+    /* font-family: 'KongshoMJ-Bold', KongshoMJ-Regular; */
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url('font/KongshoMJ-Bold');
+  }
+/* common styles */
+.section-width{
+    width: 85%;
+    margin: 100px auto;
+}
+
+
+/* nav styles */
+.logo{
+    width: 10%;
+    position: relative;
+    justify-content: flex-end;
+    top: 40px;
+    left: 50px;
+}
+.mujib{
+    width: 14%;
+    position: relative;
+    /* background-color: rgba(7, 3, 26, 0.9); */
+    justify-content: flex-end;
+    top: 70px;
+    right: -950px;
+}
+nav{
+    position: relative;
+    display: flex;
+    top: -100px;
+    /* padding-top: 50px; */
+    left: 200px;
+}
+nav > ul{
+    display: flex;
+    justify-content: space-betwaeen;
+    position: relative;
+    text-align: right;
+    right: -150px;
+}
+nav > ul{
+    list-style: none;
+
+}
+nav > ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-weight: 600;
+}
+/* header styles */
+.header{
+    background-size: cover;
+    width: 100%;
+    /* background: linear-gradient(-45deg, rgba(77, 3, 31, 0.7), rgba(8, 3, 37, 0.7), rgba(21, 6, 92, 0.7)),url('../images/header.jpg'); */
+    background: linear-gradient(-45deg, rgba(63, 2, 44, 0.7),  rgba(2, 37, 18, 0.7), rgba(21, 6, 92, 0.7)),url('../images/header.jpg');
+	background-size: 120% 100%;
+	animation: gradient 15s infinite;
+}
+.header-container{
+    width: 90%;
+    margin: 0 auto;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.header-content{
+    text-align: center;
+    margin: -30px;
+}
+.sub-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.7em;
+    text-shadow: wheat;
+    line-height: 25px;
+    color: wheat;
+    position: relative;
+    top: -10px;
+}
+.main-title{
+    font-size: 3.2em;
+    font-family: 'KongshoMJ-Bold';
+    color: rgb(25, 228, 42);
+    padding: 30px 0px 0px;
+    position: relative;
+    top: 
+}
+.institute-name{
+        font-size: 2.6em;
+        color: rgb(177, 236, 14);
+        font-weight: 800;
+        padding: 20px 0px 0px;
+    }
+.slogan{
+    font-size: 2em;
+    color: wheat;
+    line-height: 1.6em;
+}
+.esub-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.7em;
+    line-height: 25px;
+    color: wheat;
+}
+h1, h2, h3, h4{
+    padding: 8px 0px;
+}
+
+.banner-card{
+    display: flex;
+}
+.banner-card{
+    /* padding: 20px 20px; */
+}
+.card-item{
+    justify-content: space-between;
+    gap: 50px;
+    padding: 70px 20px;
+    text-align: center;
+}
+.icon{
+    background-color: rgba(241, 240, 245, 0.1);
+    border-radius: 15px 0px 15px;
+    padding: 15px 30px;
+    cursor: pointer;
+    color: wheat;
+
+}
+.icon p{
+    font-size: 1.3em;
+    padding: 10px;
+}
+i{
+    font-size: 1.7em;
+    
+}
+
+
+/* review container */
+.review-container {
+    background-image: linear-gradient(rgba(243, 22, 188, 0.5), rgba(75, 6, 52, 0.9)), url('../images/header1.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    margin: 100px 0px;
+    padding: 70px 0px;
+}
+
+.review-video {
+    padding: 20px 0px;
+}
+
+
+/* what i do section styles */
+
+.section-title {
+    color: limegreen;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+}
+hr{
+    border: 1px solid rgb(95, 89, 93);
+    margin-bottom: 50px;
+    width: 250px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.skill-title{
+    padding: 20px 0px;
+}
+.skill img{
+    width: 70px;
+}
+.skill {
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    justify-content: space-between;
+    gap: 30px;
+    box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.skill-description {
+    line-height: 25px;
+    color: #757575;
+}
